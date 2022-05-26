@@ -147,6 +147,7 @@ echo
 echo "==> Installing jq (JSON processing cli)…"
 if command -v jq &> /dev/null; then
   echo "    jq already installed. Skipping."
+  echo
 else
   brew install jq
   echo
