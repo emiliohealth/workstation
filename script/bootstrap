@@ -144,6 +144,14 @@ echo "==> Installing yarn asdf plugin"
 asdf plugin-list | grep yarn || asdf plugin-add yarn
 echo
 
+echo "==> Installing jq (JSON processing cli)…"
+if command -v jq &> /dev/null; then
+  echo "    jq already installed. Skipping."
+else
+  brew install jq
+  echo
+fi
+
 # All done!
 echo "==> SUCCESS! Your development environment is now bootstrapped!"
 echo
