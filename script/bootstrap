@@ -125,8 +125,8 @@ if grep -Fq "$ASDF_DATA_DIR" $SHELL_CONFIG
 then
   echo "    Already found asdf in path. Skipping."
 else
-  echo "export ASDF_DATA_DIR=$ASDF_DATA_DIR/" >> $SHELL_CONFIG
-  echo 'source $ASDF_DATA_DIR/asdf.sh' >> $SHELL_CONFIG
+  echo "export ASDF_DATA_DIR=$ASDF_DATA_DIR" >> $SHELL_CONFIG
+  echo 'source $ASDF_DATA_DIR/libexec/asdf.sh' >> $SHELL_CONFIG
   echo
 fi
 source $SHELL_CONFIG
