@@ -47,4 +47,7 @@ You'll be asked for your:
 
 ## Next Steps
 
-Hop over to https://github.com/hellobrightline/reef and follow the Setup instructions to configure our primary application, which is known as Reef.
+Once you have been added to the Brightline org on github, be sure to authorize the newly added SSH key.
+<img width="700" alt="ssh_keys" src="https://github.com/hellobrightline/workstation/assets/8681076/cacd3c56-f723-443c-b66f-cd6a9a065cb3">
+
+Finally, hop over to https://github.com/hellobrightline/reef and follow the Setup instructions to configure our primary application, which is known as Reef.
